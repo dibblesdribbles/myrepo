@@ -27,7 +27,7 @@
             UsableType other = (UsableType)obj;
             
             if(other == null)
-                throw new ArgumentException("This object is not a UsableType.");
+                throw new ArgumentException("This object is not a UsableType.");//hi
 
             return name.ToLower().CompareTo (other.name.ToLower());
         }
