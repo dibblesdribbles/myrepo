@@ -17,7 +17,7 @@
                 name = k_NameForNullType;
                 nameWithSorting = k_NameForNullType;
                 additionalNamespace = blankAdditionalNamespace;
-            }
+            }//yes
 
             public int CompareTo (object obj)
         {
